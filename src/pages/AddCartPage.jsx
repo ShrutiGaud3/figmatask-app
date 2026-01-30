@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom'
 const AddCartPage = () => {
   return (
    <div className='flex min-h-screen justify-center items-start py-4'>
-     <div className='container max-w-7xl h-auto p-3   flex md:flex-row flex-col-reverse items-center justify-between'>
+     <div className='container max-w-7xl h-auto p-3 gap-4  flex md:flex-row flex-col-reverse items-center justify-between'>
       
-        <div className='md:w-[70%]  w-full p-4 space-y-4'>
+        <div className='md:w-[70%]  w-full  space-y-4'>
           <h1 className='text-2xl font-semibold'>Your Bag</h1>
             <div className='flex items-center shadow-sm rounded-xl p-2 '>
               <div className='bg-gray-300 rounded-xl h-32 w-32'>
                 <img src={shoe1} className='h-full w-full object-contain' alt="" />
               </div>
-              <div className='flex items-center justify-between  w-full px-5 '>
+              <div className='flex items-center justify-between  w-full md:px-5 px-2'>
                
                    <div className=' flex flex-col gap-4'>
                    <h1 className='text-xl font-bold'>Nike</h1>
@@ -39,7 +39,7 @@ const AddCartPage = () => {
               <div className='bg-gray-300 h-32 w-32 rounded-xl '>
                 <img src={shoe1} className='h-full w-full object-contain' alt="" />
               </div>
-              <div className='flex items-center justify-between  w-full px-5 '>
+              <div className='flex items-center justify-between  w-full md:px-5 px-2 '>
                
                    <div className=' flex flex-col gap-4'>
                    <h1 className='text-xl font-bold'>Nike</h1>
