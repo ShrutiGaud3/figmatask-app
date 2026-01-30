@@ -10,8 +10,8 @@ const AddCartPage = () => {
         <div className='md:w-[70%]  w-full p-4 space-y-4'>
           <h1 className='text-2xl font-semibold'>Your Bag</h1>
             <div className='flex items-center shadow-sm rounded-xl p-2 '>
-              <div className='bg-gray-300 rounded-xl '>
-                <img src={shoe1} className='h-35 w-35' alt="" />
+              <div className='bg-gray-300 rounded-xl h-35 w-35'>
+                <img src={shoe1} className='h-full w-full object-contain' alt="" />
               </div>
               <div className='flex items-center justify-between  w-full px-5 '>
                
@@ -36,8 +36,8 @@ const AddCartPage = () => {
 
             {/* 2  */}
             <div className='flex items-center shadow-sm rounded-xl p-2 '>
-              <div className='bg-gray-300 rounded-xl '>
-                <img src={shoe1} className='h-35 w-35' alt="" />
+              <div className='bg-gray-300 h-35 w-35 rounded-xl '>
+                <img src={shoe1} className='h-full w-full object-contain' alt="" />
               </div>
               <div className='flex items-center justify-between  w-full px-5 '>
                
