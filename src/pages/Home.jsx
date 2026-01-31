@@ -2,7 +2,11 @@ import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import TrendingShoes from './TrendingShoes'
 
+
 const Home = () => {
+
+  
+
   return (
    <>
     <div className='p-5 flex items-center justify-center '>
@@ -20,7 +24,7 @@ const Home = () => {
      </div>
     </div>
 
-    <TrendingShoes/>
+    <TrendingShoes />
    
    </>
   )

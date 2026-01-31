@@ -11,7 +11,7 @@ const Navbar = () => {
                  <img src="	https://shoe-figma-file.vercel.app/assets/logo-CNgyYBPp.png" className='w-7 h-7' alt="" />
                 <h1 className='font-bold text-xl'>Sun Co.</h1>
                </Link>
-                <a className='border flex gap-2 items-center justify-center p-2 px-3 border-1 rounded-md '><CiShoppingCart className='h-5 w-5' /> View Cart</a>
+                <Link to={"/cart"} className='border flex gap-2 items-center justify-center p-2 px-3 border-1 rounded-md '><CiShoppingCart className='h-5 w-5' /> View Cart</Link>
             </nav>
         </div>
     </div>
